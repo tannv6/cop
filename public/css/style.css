@@ -1,0 +1,20 @@
+/* base */
+@import url(/css/reset.css);
+@import url(/css/root.css);
+
+/* utilities */
+@import url(/utilities_css/custom.css);
+@import url(/utilities_css/ani_custom.css);
+@import url(/utilities_css/font.css);
+
+/* lib */
+@import url(/lib_css/slick.css);
+@import url(/lib_css/aos.css);
+@import url(/lib_css/swiper.min.css);
+
+
+
+/* responsive and css style*/
+@import url(/css/main.css);
+@import url(/css/main_responsive.css);
+@import url(/css/common.css);

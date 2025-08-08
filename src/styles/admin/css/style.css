@@ -1,0 +1,103 @@
+.login-form{
+    min-height: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-login-image{
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.rounded-card-login{
+    border-radius: 30px;
+}
+.mt-100{
+    margin-top: 100px
+}
+
+.paging {
+    text-align: center;
+}
+
+.paging ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.paging li {
+    display: inline-block;
+    margin: 0 5px;
+}
+
+.paging a {
+    text-decoration: none;
+    color: #333;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.paging a:hover {
+    background-color: #f0f0f0;
+}
+
+.paging .active a {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.paging .disabled a {
+    color: #ccc;
+    pointer-events: none;
+}
+
+.paging .disabled a:hover {
+    background-color: transparent;
+}
+
+.img_upload_file{
+    width: 500px;
+    height: 300px;
+}
+.img_upload_file_t{
+    width: 300px;
+    height: 150px;
+}
+.select-custom{
+    width: 80px;
+}
+.numPaginationCustom{
+    margin-top: 100px;
+    scale: 2;
+}
+.p_img{
+    margin-bottom: 30px;
+}
+.board .thumType ul {
+    justify-content: start;
+}
+
+.board .thumType ul li .thumb {
+    border: 1px solid #909090;
+    background: url(/assets/_images/common/no_img.png) center center no-repeat;
+    /* 240422 */ display: flex; align-items: center; justify-content: center;
+}
+.list__cont:hover{
+    color: #000E54;
+}
+.inquiry_category{
+    width: 100%;
+}
+
+.overflow-text {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 250px;
+}

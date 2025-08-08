@@ -1,0 +1,354 @@
+/* css custom class */
+
+[class^="inner"] {
+  /* position: relative; */
+  margin: 0 auto;
+  width: -webkit-calc(100% - 8.332vw);
+  width: -moz-calc(100% - 8.332vw);
+  width: calc(100% - 8.332vw);
+  max-width: 1400px;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-grey {
+  color: #99b0be;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.gap-sm {
+  gap: 20px;
+}
+
+.mt-20 {
+  margin-top: 20px;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+/* css custom class */
+
+.mySwiper1 .swiper-button-prev {
+  background-image: url('../images/common/prev_slider.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50px;
+  height: 50px;
+}
+
+.mySwiper1 .swiper-button-next {
+  background-image: url('../images/common/next_slider.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50px;
+  height: 50px;
+}
+
+.mySwiper1 .swiper-button-prev:after,
+.swiper-button-next:after {
+  display: none;
+}
+
+.mySwiper1 {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.mySwiper1 {
+  overflow: hidden;
+}
+
+.section1_container {
+  position: relative;
+}
+
+.mySwiper1 .swiper-pagination {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.mySwiper1 .swiper-button-prev {
+  top: 46%;
+  left: -80px;
+}
+
+.mySwiper1 .swiper-button-next {
+  top: 46%;
+  right: -20px;
+}
+
+.mySwiper1 .swiper-pagination {
+  text-align: center;
+  padding: 10px 0;
+}
+
+
+.mySwiper1 .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  opacity: 0.5;
+  border-radius: 50%;
+  margin: 0 4px;
+}
+
+.mySwiper1 .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+
+
+
+/* // sưipper2 */
+
+
+
+.mySwiper2 .swiper-button-prev2 {
+  background-image: url('../images/common/prev_slider.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50px;
+  height: 50px;
+}
+
+.mySwiper2 .swiper-button-next2 {
+  background-image: url('../images/common/next_slider.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50px;
+  height: 50px;
+}
+
+.mySwiper2 .swiper-button-prev2:after,
+.swiper-button-next2:after {
+  display: none;
+}
+
+.mySwiper2 {
+  /* width: 1100px;  */
+  overflow: hidden;
+  margin: 0 auto;
+  margin-left: -35px;
+  padding-bottom: 50px;
+}
+
+
+.mySwiper2 .swiper-pagination2 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+}
+
+.mySwiper2 .swiper-button-prev2 {
+  top: 46%;
+  position: absolute;
+  left: 20%;
+}
+
+.mySwiper2 .swiper-button-next2 {
+  top: 46%;
+  right: 14.5%;
+  position: absolute;
+}
+
+.mySwiper2 .swiper-pagination2 {
+  text-align: center;
+  padding: 10px 0;
+  margin-left: 60px;
+}
+
+
+.mySwiper2 .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background-color: white;
+  opacity: 0.5;
+  border-radius: 50%;
+  margin: 0 4px;
+}
+
+.mySwiper2 .swiper-pagination-bullet-active {
+  opacity: 1;
+}
+
+
+.title_text {
+  text-decoration: underline;
+  text-decoration-color: #2257b6;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 2px;
+  color: #2257b6;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.title_text_white {
+  text-decoration: underline;
+  text-decoration-color: white;
+  text-underline-offset: 8px;
+  text-decoration-thickness: 2px;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.mySwiper2 .swiper-slide {
+  opacity: 0.5 !important;
+}
+
+.mySwiper2 .swiper-slide.swiper-slide-prev,
+.mySwiper2 .swiper-slide .swiper-slide-duplicate.swiper-slide-next {
+  opacity: 1 !important;
+
+}
+
+.mySwiper2 .swiper-slide.swiper-slide-prev {
+  margin-left: 92px;
+}
+
+.mySwiper2 .swiper-slide.swiper-slide-active {
+  opacity: 1 !important;
+}
+
+.mySwiper2 .swiper-slide.swiper-slide-next {
+  opacity: 1 !important;
+  margin-right: 70px;
+}
+
+@media screen and (max-width: 1700px) { 
+  .mySwiper2 .swiper-button-prev2 {
+    display: none;
+  }
+
+  .mySwiper2 .swiper-button-next2 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .mySwiper2 {
+    margin-left: -90px;
+  }
+
+  .mySwiper2 .swiper-pagination2 {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 850px) {
+
+  .mySwiper2 .swiper-button-prev2 {
+    display: block;
+  }
+
+  .mySwiper2 .swiper-button-next2 {
+    display: block;
+  }
+
+  .title_text {
+    text-decoration: underline;
+    text-decoration-color: #2257b6;
+    text-underline-offset: 0.3333rem;
+    text-decoration-thickness: 0.0667rem;
+    color: #2257b6;
+    font-size: 1.0667rem;
+    font-weight: bold;
+    padding: 0;
+    border-radius: 0;
+  }
+
+  .mySwiper1 .swiper-button-next, .mySwiper_mo .swiper-button-next {
+    background-image: url(../images/common/next_slider.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .mySwiper1 .swiper-button-prev, .mySwiper_mo .swiper-button-prev {
+    background-image: url(../images/common/prev_slider_mo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .mySwiper1 .swiper-pagination-bullet, .mySwiper_mo .swiper-pagination-bullet {
+    width: 0.5333rem;
+    height: 0.5333rem;
+    border-radius: 50%;
+    margin: 0 0.2667rem;
+  }
+
+  .mySwiper1 .swiper-button-next, .mySwiper_mo .swiper-button-next{
+    top: 46%;
+    right: 1rem !important;
+  }
+
+  .mySwiper1 .swiper-button-prev, .mySwiper_mo .swiper-button-prev{
+    top: 46%;
+    left: 1rem !important;
+  }
+
+  .swiper-button-prev:after, .swiper-container-rtl .swiper-button-next:after {
+    display: none;
+  }
+
+  .mySwiper_mo .swiper-pagination {
+    position: absolute;
+    bottom: -15%;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+
+  .mySwiper_mo .swiper-pagination-bullet {
+    background-color: #fff;
+  }
+
+  .title_text_white {
+    text-decoration: underline;
+    text-decoration-color: white;
+    text-underline-offset: 0.3333rem;
+    text-decoration-thickness: 0.0667rem;
+    font-size: 1.0667rem;
+    font-weight: bold;
+    padding: 0px;
+    border-radius: 0px;
+  }
+
+  .mySwiper2 .swiper-slide {
+    opacity: 1;
+  }
+
+}

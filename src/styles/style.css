@@ -1,0 +1,17 @@
+/* base */
+@import "./reset.css";
+@import "./root.css";
+
+/* utilities */
+@import "../utilities_css/custom.css";
+@import "../utilities_css/ani_custom.css";
+@import "../utilities_css/font.css";
+
+@import "../lib_css/slick.css";
+@import "../lib_css/aos.css";
+@import "../lib_css/swiper.min.css";
+
+/* responsive and css style */
+@import "./main.css";
+@import "./main_responsive.css";
+@import "./common.css";

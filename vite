@@ -1,0 +1,14 @@
+
+
+  VITE v7.0.5  ready in 218 ms
+
+  ➜  Local:   http://localhost:5173/
+  ➜  Network: use --host to expose
+  ➜  press h + enter to show help
+오후 2:10:06 [vite] (client) ✨ new dependencies optimized: @ckeditor/ckeditor5-react, @c
+오후 2:10:06 [vite] (client) ✨ new dependencies optimized: @ckeditor/ckeditor5-react, @ckeditor/ckeditor5-build-classic
+오후 2:10:06 [vite] (client) ✨ optimized dependencies changed. reloading
+Files in the public directory are served at the root path.
+Instead of /public/lib/jquery/jquery-ui.min.css, use /lib/jquery/jquery-ui.min.css.
+^C
+
