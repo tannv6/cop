@@ -1470,6 +1470,11 @@
         border: 1px solid #ccc;
         border-radius: 0.192rem;
     }
+
+    .privacy_detail .tab_content table {
+        width: 100% !important;
+        word-break: auto-phrase;
+    }
 }
 
 @media screen and (max-width: 768px) {
