@@ -680,11 +680,19 @@ font-weight: 500;
 }
 
 .price_sect .price_list .card .top .tag {
-  padding: 5px 30px;
+  padding: 5px 22px;
   border-radius: 16px;
   border: 1px solid #ffffff;
   margin-bottom: 20px;
   width: 130px;
+}
+
+.privacy_detail .tab_content p {
+  letter-spacing: 0px !important;
+}
+
+.privacy_detail .tab_content table {
+  width: 80% !important;
 }
 
 .price_sect .price_list .card .top .tag p {
