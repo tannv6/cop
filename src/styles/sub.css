@@ -57,7 +57,7 @@
 
 .privacy_detail .tab_content p {
   font-size: 18px;
-  letter-spacing: -1px;
+  letter-spacing: 0px;
   line-height: 1.4;
   color: #ffffff;
   font-weight: 300;
@@ -141,7 +141,7 @@
 
   .privacy_detail .tab_content p {
     font-size: 1.231rem;
-    letter-spacing: -1px;
+    letter-spacing: 0px;
     line-height: 1.6;
     color: #ffffff;
     font-weight: 300;

@@ -89,10 +89,10 @@
 
     .price_sect .price_list_mo .card .top .tag {
         padding: 4.928px 30.768px;
-        border-radius: 11.696px;
+        border-radius: 16.696px;
         border: 0.063rem solid #ffffff;
         margin-bottom: 18.464px;
-        width: fit-content;
+        width: 130px;
     }
 
     .price_sect .price_list_mo .card .top .tag p {
@@ -950,10 +950,10 @@
 
     .price_sect .price_list_mo .card .top .tag {
         padding: 0.308rem 1.923rem;
-        border-radius: 0.731rem;
+        border-radius: 1rem;
         border: 1px solid #ffffff;
         margin-bottom: 1.154rem;
-        width: fit-content;
+        width: 9.2rem;
     }
 
     .price_sect .price_list_mo .card .top .tag p {
