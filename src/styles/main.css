@@ -364,6 +364,11 @@ font-weight: 500;
   font-weight: bold;
 }
 
+.card {
+  background-color: transparent;
+  border: unset;
+}
+
 .service_edit .edit_list
  {
     width: calc((100vw - 1400px) / 2 + 1400px);
@@ -509,6 +514,8 @@ font-weight: 500;
   border: 1px solid #353535;
   padding: 90px 22px 55px;
   box-sizing: border-box;
+  flex-direction: unset;
+  display: block;
 }
 
 .feature_sect .feature_list .card .ico {

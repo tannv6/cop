@@ -56,12 +56,6 @@ const LoginPage: React.FC = () => {
           href="/images/favicon.svg"
           type="image/x-icon"
         />
-        <link href="/lib_css/jquery-ui.css" rel="stylesheet" />
-        <link href="/lib_css/slick.css" rel="stylesheet" />
-        <link href="/lib_css/swiper.min.css" rel="stylesheet" />
-        <link href="/lib_css/aos.css" rel="stylesheet" />
-        <link href="/css/style.css" rel="stylesheet" />
-        <link href="/css/login.css" rel="stylesheet" />
       </Helmet>
 
       <div id="wrap">
