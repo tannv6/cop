@@ -86,25 +86,24 @@ const ContactSection: React.FC = () => {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
 
-    if (!form.contact || !form.email || !form.detail.trim()) {
-      alert(t("contactSection.alerts.requiredFields"));
+    if (!form.contact) {
+      alert("연락처를 입력해주세요.");
       return;
     }
-
 
     const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailRegex.test(form.email)) {
-      alert(t("contactSection.alerts.invalidEmail"));
+      alert("유효한 이메일 주소를 입력해주세요.");
       return;
     }
 
-    if (!form.captcha || form.captcha.trim() === "") {
-      alert(t("contactSection.alerts.captchaRequired"));
+    if (!form.detail.trim()) {
+      alert("문의 내용을 입력해주세요.");
       return;
     }
 
     if (!form.agree) {
-      alert(t("contactSection.alerts.agreeRequired"));
+      alert("개인정보 수집 및 이용에 동의해주세요.");
       return;
     }
 
@@ -121,7 +120,7 @@ const ContactSection: React.FC = () => {
 
     try {
       await postInquiry(payload);
-        alert(t("contactSection.alerts.success"));
+      alert("문의가 정상적으로 등록되었습니다!");
 
       setForm({
         name: "",
@@ -138,7 +137,7 @@ const ContactSection: React.FC = () => {
       if (err instanceof Error) {
         alert(err.message);
       } else {
-        alert(t("contactSection.alerts.serverError"));
+        alert("서버 오류! 다시 시도해주세요.");
       }
       loadCaptcha();
     }

@@ -78,7 +78,7 @@ const AdminConsentForm: React.FC = () => {
               editor={ClassicEditor as any}
               data={content}
               config={editorConfig}
-              onChange={(_, editor) => setContent(editor.getData())}
+              onChange={(_: any, editor: any) => setContent(editor.getData())}
             />
           )}
         </div>

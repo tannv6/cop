@@ -1,0 +1,4 @@
+include:
+  - project: cop-info/cop-info-cicd
+    ref: main
+    file: cop-info-fe/.gitlab-cop-info-fe.yml

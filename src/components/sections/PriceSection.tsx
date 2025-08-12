@@ -1,11 +1,11 @@
 import React from "react";
 import { useTranslation } from "react-i18next";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Pagination } from "swiper/modules";
 import "../../lib_css/jquery-ui.css";
 import "../../lib_css/slick.css";
 import "../../lib_css/swiper.min.css";
 import "../../styles/style.css";
+import { Swiper, SwiperSlide } from "swiper/react";
+import { Pagination } from "swiper/modules";
 
 // interface PriceCard {
 //   tag: string;
@@ -62,12 +62,12 @@ const PriceSection: React.FC = () => {
         <div className="price_title" data-aos="fade-up">
           <h2>{t("priceSection.title")}</h2>
           <p>
-            {descLines.line1}
-              <br className="only_mo" />
-            {descLines.line2}
-              <br />
-            {descLines.line3}
-             <br />
+            {Object.entries(descLines).map(([key, value]) => (
+              <React.Fragment key={key}>
+                {value}
+                <br />
+              </React.Fragment>
+            ))}
             <span className="price_note">{note}</span>
           </p>
         </div>
