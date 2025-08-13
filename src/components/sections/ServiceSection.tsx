@@ -21,7 +21,7 @@ const ServiceSection: React.FC = () => {
             <div className="box flex__c">
               <div className="images" data-aos="fade-up">
                 <div className="thumb">
-                  <img src="/images/service_img01.png" alt="" />
+                  <img src={t("service.create.image")} alt="" />
                 </div>
               </div>
               <div className="detail" data-aos="fade-up">

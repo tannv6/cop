@@ -11,6 +11,12 @@ import { useTranslation } from "react-i18next";
 const ContactSection: React.FC = () => {
   const { t, i18n } = useTranslation();
 
+  const descList = t("contactSection.desc", { returnObjects: true }) as {
+    line1: string;
+    line2: string;
+    line3: string;
+  };
+
   const [form, setForm] = useState({
     name: "",
     contact: "",
@@ -150,18 +156,14 @@ const ContactSection: React.FC = () => {
             <div className="contact_title" data-aos="fade-up">
               <h2>{t("contactSection.title")}</h2>
               <p className="desc">
-                {(t("contactSection.desc", { returnObjects: true }) as string[]).map(
-                    (line, idx, arr) => (
-                        <React.Fragment key={idx}>
-                          {line}
-                          {idx !== arr.length - 1 && <br />}
-                        </React.Fragment>
-                    )
-                )}
+                {descList.line1}<br />
+                {descList.line2}
+                  <br className="only_mo" />
+                {descList.line3}
               </p>
             </div>
 
-            <form name="frm" id="frm" onSubmit={handleSubmit} autoComplete="off">
+            <form name="frm" id="frm" onSubmit={handleSubmit} autoComplete="off" style={{display: 'none'}}>
               <input type="hidden" value="" id="hidden_captcha" />
               <div className="contact_form" data-aos="fade-up">
                 {/* 이름 / 연락처 */}
@@ -339,6 +341,19 @@ const ContactSection: React.FC = () => {
                 </div>
               </div>
             </form>
+            
+            <div className="contact_mail">
+              <div className="mail_content">
+                <img src="/images/contact_mail_ic.png" alt="" />
+                <p className="mail_txt">cop_support@lgcns.com</p>
+              </div>
+              <a href="mailto:cop_support@lgcns.com" className="mail_desc">
+                <p>{t("contactSection.mail")}</p>
+                <img src="/images/btn_contact_mail.png" alt="" className="only_web" />
+                <img src="/images/btn_contact_mail_m.png" alt="" className="only_mo" />
+              </a>
+            </div>
+
           </div>
         </section>
 
