@@ -15,7 +15,12 @@ const MainVisual: React.FC = () => {
     line4: string;
   };
 
-  const descList = t("mainVisual.desc", { returnObjects: true }) as string[];
+  const descList = t("mainVisual.desc", { returnObjects: true }) as {
+    line1: string;
+    line2: string;
+    line3: string;
+    line4: string;
+  };
 
   const btn = t("mainVisual.button", { returnObjects: true }) as {
     title: string;
@@ -49,13 +54,14 @@ const MainVisual: React.FC = () => {
               <br className="only_mo" />
               {title.line4}
             </h2>
-            <p className="desc">
-              {descList.map((line, index) => (
-                  <React.Fragment key={index}>
-                    {line}
-                    {index !== descList.length - 1 && <br />}
-                  </React.Fragment>
-              ))}
+             <p className="desc">
+                {descList.line1}
+                {descList.line2 && <br className="only_mo" />}
+                {descList.line2}
+                  <br />
+                {descList.line3}
+                  <br className="only_mo" />
+                {descList.line4}
             </p>
             <a href="#contact" className="main_contact flex_c_c">
               <p>{btn.title}</p>

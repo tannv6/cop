@@ -62,12 +62,12 @@ const PriceSection: React.FC = () => {
         <div className="price_title" data-aos="fade-up">
           <h2>{t("priceSection.title")}</h2>
           <p>
-            {Object.entries(descLines).map(([key, value]) => (
-              <React.Fragment key={key}>
-                {value}
-                <br />
-              </React.Fragment>
-            ))}
+            {descLines.line1}
+              <br className="only_mo" />
+            {descLines.line2}
+              <br />
+            {descLines.line3}
+             <br />
             <span className="price_note">{note}</span>
           </p>
         </div>

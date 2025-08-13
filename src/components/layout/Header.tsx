@@ -127,36 +127,45 @@ const Header: React.FC = () => {
                   <img src="/images/select_ic.png" alt="" className="only_web" />
                   <img src="/images/select_ic_m.png" alt="" className="only_mo" />
                 </div>
-                {langOpen && (
-                    <ul className="lang_dropdown" id="lang-dropdown">
-                      <li data-lang="kr" onClick={() => selectLang("KOR")}>
-                        <img
-                            src="/images/lang_ic.png"
-                            alt=""
-                            className="ic only_web"
-                        />
-                        <img
-                            src="/images/lang_ic_m.png"
-                            alt=""
-                            className="ic only_mo"
-                        />
-                        <p>KOR</p>
-                      </li>
-                      <li data-lang="en" onClick={() => selectLang("ENG")}>
-                        <img
-                            src="/images/lang_ic.png"
-                            alt=""
-                            className="ic only_web"
-                        />
-                        <img
-                            src="/images/lang_ic_m.png"
-                            alt=""
-                            className="ic only_mo"
-                        />
-                        <p>ENG</p>
-                      </li>
-                    </ul>
-                )}
+                  {langOpen && (
+                      <ul className="lang_dropdown" id="lang-dropdown">
+                        {currentLang === "KOR" ? (
+                          <li data-lang="en" onClick={(e) => {
+                            e.stopPropagation();
+                            selectLang("ENG");
+                          }}>
+                            <img
+                              src="/images/lang_ic.png"
+                              alt=""
+                              className="ic only_web"
+                            />
+                            <img
+                              src="/images/lang_ic_m.png"
+                              alt=""
+                              className="ic only_mo"
+                            />
+                            <p>ENG</p>
+                          </li>
+                        ) : (
+                          <li data-lang="kr" onClick={(e) => {
+                            e.stopPropagation();
+                            selectLang("KOR");
+                          }}>
+                            <img
+                              src="/images/lang_ic.png"
+                              alt=""
+                              className="ic only_web"
+                            />
+                            <img
+                              src="/images/lang_ic_m.png"
+                              alt=""
+                              className="ic only_mo"
+                            />
+                            <p>KOR</p>
+                          </li>
+                        )}
+                      </ul>
+                    )}
               </div>
 
               <div className="only_mo">

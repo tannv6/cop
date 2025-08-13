@@ -39,14 +39,14 @@ const Footer: React.FC = () => {
               <div className="copy">
                 <p>{t("footer.copyright")}</p>
               </div>
-              <div className="privacy flex__c">
+              {/* <div className="privacy flex__c">
                 <Link to={`/privacy`}>
                   <p>{t("footer.privacyPolicy")}</p>
                 </Link>
                 <Link to={`/privacy?tab=1`}>
                   <p>{t("footer.privacyConsent")}</p>
                 </Link>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
