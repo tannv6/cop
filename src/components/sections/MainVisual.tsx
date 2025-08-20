@@ -72,7 +72,7 @@ const MainVisual: React.FC = () => {
           </div>
         </div>
         <div className="only_mo">
-          <div className="beta">
+          <div className="beta" style={{display : 'none'}}>
             <p>Beta</p>
           </div>
         </div>

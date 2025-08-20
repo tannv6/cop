@@ -110,7 +110,7 @@ const Header: React.FC = () => {
                   href="https://www.cop-ai.kr"
                   target="_blank"
                   className="btn_contact"
-                  rel="noreferrer"
+                  rel="noreferrer" style={{display: 'none'}}
               >
                 <p>Launch COP</p>
               </a>
@@ -197,7 +197,7 @@ const Header: React.FC = () => {
           </div>
 
           <div className="only_web">
-            <div className="beta">
+            <div className="beta" style={{display: 'none'}}>
               <p>Beta</p>
             </div>
           </div>

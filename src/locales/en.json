@@ -10,7 +10,7 @@
       "line1": "AI-powered High-Quality",
       "line2": "Marketing Content Creation Platform!",
       "line3": "Discover infinite value with COP,",
-      "line4": "accelerating business growth together,"
+      "line4": "accelerating business growth together."
     },
     "button": {
       "title": "COP",
@@ -70,31 +70,31 @@
   ],
   "featureSection": {
     "title": "COP Features",
-    "subtitle": "COP offers the following key features for user convenience",
+    "subtitle": "COP offers the following key features for user convenience.",
     "cards": [
       {
         "title": "Korean Prompt Support",
-        "desc": "Optimized for Korean prompts, allowing you to generate natural and detailed images"
+        "desc": "Optimized for Korean prompts, allowing you to generate natural and detailed images."
       },
       {
         "title": "AI-help Support",
-        "desc": "Even with short words or simple ideas,\nAI automatically generates refined\nprompts for you"
+        "desc": "Even with short words or simple ideas,\nAI automatically generates refined\nprompts for you."
       },
       {
         "title": "Quick Prompt Support",
-        "desc": "Analyzes popular topics and styles\nby category to provide curated prompts"
+        "desc": "Analyzes popular topics and styles\nby category to provide curated prompts."
       },
       {
         "title": "Custom Service Support",
-        "desc": "Adopt only the features you need, delivered in \na format optimized for your environment"
+        "desc": "Adopt only the features you need, delivered in \na format optimized for your environment."
       },
       {
         "title": "Brand Optimized Creation",
-        "desc": "Generates images using algorithms optimized for a specific company’s brand or products"
+        "desc": "Generates images using algorithms optimized for a specific company’s brand or products."
       },
       {
         "title": "Optimized for\n Hands-On Workflows",
-        "desc": "Generate, Edit, Finalize, and\nVary—an AI workflow all in one platform"
+        "desc": "Generate, Edit, Finalize, and\nVary—an AI workflow all in one platform."
       }
     ]
   },
@@ -106,8 +106,8 @@
     "title": "Price",
     "desc": {
       "line1": "COP provides optimized pricing plans based on",
-      "line2": "your business scale and uses",
-      "line3": "Choose the right plan that covers your needs"
+      "line2": "your business scale and uses.",
+      "line3": "Choose the right plan that covers your needs."
     },
     "note": "(For annual / enterprise plans, please contact us separately)",
     "product": {
@@ -176,7 +176,7 @@
   },
   "footer": {
     "addressLabel": "Address",
-    "address": "7-1, Magokjungang 8-ro, Gangseo-gu, Seoul, E13 (Magok-dong, LG Science Park)",
+    "address": "71, Magokjungang 8-ro, Gangseo-gu, Seoul, E13 (Magok-dong, LG Science Park)",
     "businessNoLabel": "Business Registration Number",
     "businessNo": "116-81-19477",
     "ceoLabel": "CEO",
